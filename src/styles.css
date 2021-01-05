@@ -28,10 +28,11 @@
 }
 
 .input {
-  width: 76em;
+  width: 46%;
   font-size: 1em;
   height: 68%;
   margin: 1em;
+  resize: horizontal;
 }
 
 .item {
@@ -55,7 +56,7 @@
 
 .segment {
   height: 7em;
-  width: 96%;
+  width: 93%;
   border: 2px solid lightgrey;
   margin: 1em;
   padding: 1em;
@@ -63,7 +64,7 @@
 }
 
 .embed {
-  width: 80em;
+  width: 47em;
   height: 30em;
   margin: 1em;
 }
@@ -72,4 +73,8 @@
   width: 100%;
   height: 100%;
   position: relative;
+}
+
+.view {
+  display: flex;
 }
